@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body id="page-top">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a href="#" class="navbar-brand">Doug Moore</a>
@@ -38,28 +40,41 @@
             <h3 class="mb-5">
                 <em>My Journey in Development</em>
             </h3>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
         </div>
         <div class="overlay"></div>
     </header>
     <!-- About -->
     <section class="content-section bg-light" id="about">
-        <div class="container text-center">
-            <div class="row">
+        <div class="container">
+            <div class="row" style="border: black 1px;">
                 <div class="col-lg-10 mx-auto">
-                    <h2>I could be the developer you're looking for</h2>
-                    <p class="lead mb-5">
-                    <p class="lead">
-                        My name is Doug Moore and for the past 20 years I was an
-                        application developer at a bank where I was doing more back-end developing and supporting
-                        applications.
-                        I graduated from Seneca College in 1999 with a Computer Programming and Analysis diploma.
-                    </p>
-                    <p class="lead">I enjoy coding and wanted to gain more experience on the web development side and
-                        decided
-                        to join this Boot Camp to be a Full Stack Developer.</p>
-                    <p class="lead">Hobbies: I enjoy playing some competitive mobile games.</p>
+                    <h2 class="text-center mb-5">I could be the developer you're looking for</h2>
+                    <!-- <p class="lead"> -->
+
+                    <!-- <section class="about media"> -->
+
+                        <img class="float-sm-left mr-3 img-fluid about-pic" src="./assets/images/DougMoore.jpeg" alt="Image of Doug">
+                        <!-- <article class="media-body"> -->
+                            <h5 class="mt-0 mp-0 text-primary">About me</h5>
+                            <p class="lead">
+                                My name is <b>Doug Moore</b> and for the past 20 years I was an
+                                application developer at a bank where I was doing more back-end developing and
+                                supporting applications.
+                                I graduated from Seneca College in 1999 with a Computer Programming and Analysis
+                                diploma.
+                            </p>
+                            <p class="lead">I enjoy coding and wanted to gain more experience on the web development
+                                side and decided to join this Boot Camp to be a Full Stack Developer.</p>
+                            <p class="lead">Hobbies: I enjoy playing some competitive mobile games.</p>
+                        <!-- </article> -->
+
+                    <!-- </section> -->
                 </div>
+            </div>
+            <div class="row>">
+                <a class="btn btn-primary btn-xl" href="#portfolio">Portfolio</a>
+                <a class="btn btn-primary btn-xl" href="#contact">Contact</a>
             </div>
         </div>
     </section>
@@ -149,9 +164,31 @@
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+                    <button type="submit" class="btn btn-primary btn-submit" data-toggle="modal"
+                        data-target="#exampleModal">Submit</button>
                 </form>
-
+                <!-- Modal just to explain the form isn't functional yet -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Contact Form submission</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                This isn't functional, yet. It is just for visual effect for now.<br>You can reach me
+                                instead using the GitHub or Facebook buttons below.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -161,17 +198,17 @@
         <div class="container">
             <ul class="list-inline mb-5">
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white" href="#">
+                    <a class="social-link rounded-circle text-white" href="https://github.com/AllAroundD" target="_blank">
                         <span class="fa fa-github"></span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="#">
+                    <a class="social-link rounded-circle text-white mr-3" href="#" target="_blank">
                         <span class="fa fa-facebook"></span>
                     </a>
                 </li>
             </ul>
-            <p class="text-muted small mb-0">Copyright &copy; Doug Moore's Website 2020</p>
+            <p class="text-muted small mb-0">Copyright &copy; Doug Moore's Portfolio 2020</p>
         </div>
     </footer>
     <!-- button to navigate to top -->
@@ -189,4 +226,5 @@
     <!-- custom script -->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

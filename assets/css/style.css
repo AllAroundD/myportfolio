@@ -8,6 +8,13 @@ body {
   font-family: "Source Sans Pro";
 }
 
+.navbar{
+  background-color: #155d74 !important
+}
+.nav-item{
+  text-align: right;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -171,5 +178,9 @@ a:active {
 }
 
 #topBtn:hover {
-  background-color: #555;
+  background-color: #ba9106;
+}
+
+.about-pic {
+  max-width: 50%;
 }
