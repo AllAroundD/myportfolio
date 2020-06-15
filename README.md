@@ -15,4 +15,4 @@ https://allaroundd.github.io/myportfolio/
 
 
 ## What I Learned
-It was a challenge to come up with a design to make the site look polished. Learning how to incoporate Bootstrap really helped put things together.
+It was a challenge to come up with a design to make the site look polished. Learning how to incoporate Bootstrap really helped put things together. Some of the components were challenging making it mobile-friendly.

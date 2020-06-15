@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro";
+  font-family: "Montaserrat", sans-serif;
 }
 
 .navbar{
@@ -73,13 +73,23 @@ h6 {
   background-size: cover;
 }
 
-.masthead h1 {
+/* .masthead h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
   background-color: #D6EAF8 ;
   margin-left: 7rem;
   margin-right: 7rem;
+} */
+
+.masthead h1 {
+  position: relative;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  background: rgba(0,0,0,0.1);
+  padding: 2rem;
+  color: #155d74;
 }
 
 .masthead h3 {
@@ -87,7 +97,7 @@ h6 {
 }
 
 #page-top {
-  background-image: url("./assets/images/portfolio_background.jpg");
+  background-image: url("../images/portfolio_background.jpg");
 }
 
 @media (min-width: 992px) {
