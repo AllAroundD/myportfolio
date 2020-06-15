@@ -14,7 +14,7 @@ https://allaroundd.github.io/myportfolio/
 - The Contact link shows a work in progress contact form. I included a modal to explain it is not yet functional. 
 - Buttons to my GitHub and LinkedIn profiles are located at the bottom of the page.
 
-![portfolio demo] (./assets/myportfolio-demo.gif)
+![portfolio demo](./assets/images/myportfolio-demo.gif)
 
 ## Site Features
 - This website includes a bio of me, portfolio of GitHub repositories including my group project1 and a few pinned in my profile.
