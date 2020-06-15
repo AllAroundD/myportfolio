@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <title>My Portfolio</title>
 </head>
-
 <body id="page-top">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a href="#" class="navbar-brand">Doug Moore</a>
@@ -32,7 +30,6 @@
             </ul>
         </div>
     </nav>
-
     <!-- Header -->
     <header class="masthead d-flex">
         <div class="container text-center my-auto">
@@ -50,31 +47,25 @@
             <div class="row" style="border: black 1px;">
                 <div class="col-lg-10 mx-auto">
                     <h2 class="text-center mb-5">I could be the developer you're looking for</h2>
-                    <!-- <p class="lead"> -->
-
-                    <!-- <section class="about media"> -->
-
-                        <img class="float-sm-left mr-3 img-fluid about-pic" src="./assets/images/DougMoore.jpeg" alt="Image of Doug">
-                        <!-- <article class="media-body"> -->
-                            <h5 class="mt-0 mp-0 text-primary">About me</h5>
-                            <p class="lead">
-                                My name is <b>Doug Moore</b> and for the past 20 years I was an
-                                application developer at a bank where I was doing more back-end developing and
-                                supporting applications.
-                                I graduated from Seneca College in 1999 with a Computer Programming and Analysis
-                                diploma.
-                            </p>
-                            <p class="lead">I enjoy coding and wanted to gain more experience on the web development
-                                side and decided to join this Boot Camp to be a Full Stack Developer.</p>
-                            <p class="lead">Hobbies: I enjoy playing some competitive mobile games.</p>
-                        <!-- </article> -->
-
-                    <!-- </section> -->
+                    <img class="float-sm-left mr-3 img-fluid about-pic" src="./assets/images/DougMoore.jpeg"
+                        alt="Image of Doug">
+                    <h5 class="text-secondary mb-0">About me</h5>
+                    <p class="lead">
+                        My name is <b>Doug Moore</b> and for the past 20 years I was an
+                        application developer at a bank where I was doing more back-end developing and
+                        supporting applications.
+                        I graduated from Seneca College in 1999 with a Computer Programming and Analysis
+                        diploma.
+                    </p>
+                    <p class="lead">I enjoy coding and wanted to gain more experience on the web development
+                        side and decided to join this Boot Camp to be a Full Stack Developer.</p>
+                    <p class="lead">Hobbies: I enjoy playing some competitive mobile games.</p>
                 </div>
             </div>
-            <div class="row>">
+            <div class="row about-btn">
                 <a class="btn btn-primary btn-xl" href="#portfolio">Portfolio</a>
-                <a class="btn btn-primary btn-xl" href="#contact">Contact</a>
+                <a class="btn btn-primary btn-xl ml-5" href="#contact">Contact</a>
+                <a class="btn btn-primary btn-xl ml-5" href="./assets/DougMoore_Resume.pdf">Resume</a>
             </div>
         </div>
     </section>
@@ -82,20 +73,22 @@
     <section class="content-section" id="portfolio">
         <div class="container">
             <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Portfolio</h3>
+                <h3 class="mb-0">Portfolio</h3>
                 <h2 class="mb-5">Recent Projects</h2>
             </div>
-            <div class="row no-gutters" style="border: black 1px;">
+            <div class="row ">
                 <div class="col-lg-6 mb-3">
                     <div class="card" style="width: 100%;">
                         <img src="./assets/images/Project1.jpg" class="card-img-top" alt="Project1">
                         <div class="card-body">
                             <h5 class="card-title">Mood-Food-and-Chill</h5>
                             <p class="card-text">My first group project using 2 apis</p>
-                            <a href="https://eddiesteban.github.io/Mood-Food-and-Chill/" class="btn btn-primary"
-                                target="_blank">App</a>
-                            <a href="https://github.com/EddiEsteban/Mood-Food-and-Chill" class="btn btn-primary"
-                                target="_blank">GitHub</a>
+                            <div class="portfolio-btn">
+                                <a href="https://eddiesteban.github.io/Mood-Food-and-Chill/"
+                                    class="btn btn-primary btn-xl" target="_blank">App</a>
+                                <a href="https://github.com/EddiEsteban/Mood-Food-and-Chill"
+                                    class="btn btn-primary btn-xl ml-3" target="_blank">GitHub</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -105,10 +98,10 @@
                         <div class="card-body">
                             <h5 class="card-title">Weather Dashboard</h5>
                             <p class="card-text">A simple weather dashboard with 5-day forecast using api</p>
-                            <a href="https://allaroundd.github.io/weatherdashboard/" class="btn btn-primary"
-                                target="_blank">App</a>
-                            <a href="https://github.com/AllAroundD/weatherdashboard" class="btn btn-primary"
-                                target="_blank">GitHub</a>
+                            <a href="https://allaroundd.github.io/weatherdashboard/"
+                                class="btn btn-primary btn-xl portfolio-btn" target="_blank">App</a>
+                            <a href="https://github.com/AllAroundD/weatherdashboard"
+                                class="btn btn-primary portfolio-btn btn-xl ml-3" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -118,10 +111,10 @@
                         <div class="card-body">
                             <h5 class="card-title">Scheduler</h5>
                             <p class="card-text">A work day scheduler that uses local storage</p>
-                            <a href="https://allaroundd.github.io/scheduler/" class="btn btn-primary"
-                                target="_blank">App</a>
-                            <a href="https://github.com/AllAroundD/scheduler" class="btn btn-primary"
-                                target="_blank">GitHub</a>
+                            <a href="https://allaroundd.github.io/scheduler/"
+                                class="btn btn-primary portfolio-btn btn-xl" target="_blank">App</a>
+                            <a href="https://github.com/AllAroundD/scheduler"
+                                class="btn btn-primary portfolio-btn btn-xl ml-3" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -129,12 +122,12 @@
                     <div class="card" style="width: 100%;">
                         <img src="./assets/images/codequiz.jpg" class="card-img-top" alt="Code Quiz">
                         <div class="card-body">
-                            <h5 class="card-title"></h5>
-                            <p class="card-text"></p>
-                            <a href="https://allaroundd.github.io/codequiz/" class="btn btn-primary"
-                                target="_blank">App</a>
-                            <a href="https://github.com/AllAroundD/codequiz" class="btn btn-primary"
-                                target="_blank">GitHub</a>
+                            <h5 class="card-title">JavaScript Code Quiz</h5>
+                            <p class="card-text">A timed quiz on JavaScript fundamentals that stores high scores</p>
+                            <a href="https://allaroundd.github.io/codequiz/"
+                                class="btn btn-primary portfolio-btn btn-xl" target="_blank">App</a>
+                            <a href="https://github.com/AllAroundD/codequiz"
+                                class="btn btn-primary portfolio-btn btn-xl ml-3" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -142,9 +135,9 @@
         </div>
     </section>
     <!-- Contact -->
-    <section class="content-section" id="contact">
+    <section class="content-lastsection" id="contact">
         <div class="container text-center">
-            <h2 class="mx-auto mb-5">This is one way to contact me</h2>
+            <h2 class="mx-auto mb-5">Entering your info below is one way to contact me</h2>
         </div>
         <div class="jumbotron-main">
             <div class="jumbotron main-box mt-5 ml-5 mr-5">
@@ -184,7 +177,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+                                <!-- <button type="button" class="btn btn-primary">Submit</button> not including the submit yet since the functionality isn't working -->
                             </div>
                         </div>
                     </div>
@@ -198,12 +191,14 @@
         <div class="container">
             <ul class="list-inline mb-5">
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white" href="https://github.com/AllAroundD" target="_blank">
+                    <a class="social-link rounded-circle text-white" href="https://github.com/AllAroundD"
+                        target="_blank">
                         <span class="fa fa-github"></span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/doug-moore-dev/" target="_blank">
+                    <a class="social-link rounded-circle text-white mr-3"
+                        href="https://www.linkedin.com/in/doug-moore-dev/" target="_blank">
                         <span class="fa fa-linkedin"></span>
                     </a>
                 </li>
@@ -212,7 +207,7 @@
         </div>
     </footer>
     <!-- button to navigate to top -->
-    <button class="btn btn-primary bg-dark" onclick="gotoTopFunction()" id="topBtn" title="Go to top">^</button>
+    <button class="btn btn-primary" onclick="gotoTopFunction()" id="topBtn" title="Go to top">^</button>
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -226,5 +221,4 @@
     <!-- custom script -->
     <script src="assets/js/script.js"></script>
 </body>
-
 </html>

@@ -37,6 +37,10 @@ body {
   text-transform: uppercase;
 }
 
+.content-lastsection {
+  padding-top: 7.5rem;
+}
+
 h1,
 h2,
 h3,
@@ -63,7 +67,7 @@ h6 {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("../img/bg-masthead.jpg");
+    url("../images/portfolio_background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,6 +77,17 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  background-color: #D6EAF8 ;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.masthead h3 {
+  color: #ba9106;
+}
+
+#page-top {
+  background-image: url("./assets/images/portfolio_background.jpg");
 }
 
 @media (min-width: 992px) {
@@ -181,6 +196,38 @@ a:active {
   background-color: #ba9106;
 }
 
+#portfolio {
+  background: linear-gradient(
+    90deg,
+    rgba(110, 76, 76, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  ),
+  url("../images/gold_bg.jpg");
+}
+
+.about-btn, .portfolio-btn{
+  justify-content: center;
+  align-items: center;
+}
+
 .about-pic {
   max-width: 50%;
+}
+
+#contact {
+  background: linear-gradient(
+    90deg,
+    rgba(110, 76, 76, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  ),
+  url("../images/portfolio_background.jpg");
+}
+
+.content-lastsection h1 {
+  color: #ba9106;
+}
+
+.content-lastsection h2 {
+  background-color: #D6EAF8;
+  width: 50%;
 }
