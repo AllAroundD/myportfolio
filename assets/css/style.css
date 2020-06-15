@@ -21,8 +21,22 @@ body {
 
 .btn-sm {
   width: 15%;
+  padding: 1.5rem 2.5rem;
+}
+
+.btn-about {
+  margin: 5px 10px 5px 10px;
+  max-width: 200px;
+  width: 100%;
   padding: 1.25rem 2.5rem;
 }
+
+@media (max-width: 992px) {
+  .btn-about {
+    padding: 0;
+  }
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -72,15 +86,6 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* .masthead h1 {
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-  background-color: #D6EAF8 ;
-  margin-left: 7rem;
-  margin-right: 7rem;
-} */
 
 .masthead h1 {
   position: relative;
