@@ -1,3 +1,6 @@
+![issues](https://img.shields.io/github/issues/AllAroundD/myportfolio) ![forks](https://img.shields.io/github/forks/AllAroundD/myportfolio) ![stars](https://img.shields.io/github/stars/AllAroundD/myportfolio) ![license](https://img.shields.io/github/license/AllAroundD/myportfolio)
+
+
 # myportfolio
 This is a place to share my portfolio and journey as a developer
 
@@ -27,3 +30,19 @@ https://allaroundd.github.io/myportfolio/
 
 ## What I Learned
 It was a challenge to come up with a design to make the site look polished. Learning how to incoporate Bootstrap really helped put things together. Some of the components were challenging making it mobile-friendly.
+
+
+## License
+  [MIT](LICENSE)
+
+## Contributing
+  
+
+## Tests
+  No formal tests documented. The usage demo gif above shows some of the tests that were performed.
+
+## Questions
+
+[GitHub Profile](https://github.com/AllAroundD/)
+
+-If you have any questions, please contact me at [dougmoore@use.startmail.com](mailto:dougmoore@use.startmail.com?subject=[GitHub]%20Source%20Question).
