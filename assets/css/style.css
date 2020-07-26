@@ -246,3 +246,7 @@ a:active {
   background-color: #D6EAF8;
   width: 50%;
 }
+
+.card {
+  height: 100%;
+}
